@@ -13,31 +13,31 @@
     </div>
        
     <div class="chapter">          
-    <a id="btn1"class="search-btn" onclick="send1()">Session1 </a>         
+    <a id="btn1"class="search-btn" onclick="send(1)">Session1 </a>         
     </div>
     <div class="chapter">          
-    <a id="btn2"class="search-btn" onclick="send2()">Session2 </a>         
+    <a id="btn2"class="search-btn" onclick="send(2)">Session2 </a>         
     </div>
     <div class="chapter">          
-    <a id="btn3"class="search-btn" onclick="send()">Session3 </a>         
+    <a id="btn3"class="search-btn" onclick="send(3)">Session3 </a>         
     </div>
     <div class="chapter">          
-    <a id="btn4"class="search-btn" onclick="send()">Session4 </a>         
+    <a id="btn4"class="search-btn" onclick="send(4)">Session4 </a>         
     </div>
     <div class="chapter">          
-    <a id="btn5"class="search-btn" onclick="send()">Session5 </a>         
+    <a id="btn5"class="search-btn" onclick="send(5)">Session5 </a>         
     </div>
     <div class="chapter">          
-    <a id="btn6"class="search-btn" onclick="send()">Session6 </a>         
+    <a id="btn6"class="search-btn" onclick="send(6)">Session6 </a>         
     </div>
     <div class="chapter">          
-    <a id="btn7"class="search-btn" onclick="send()">Session7 </a>         
+    <a id="btn7"class="search-btn" onclick="send(7)">Session7 </a>         
     </div>
     <div class="chapter">          
-    <a id="btn8"class="search-btn" onclick="send()">Session8 </a>         
+    <a id="btn8"class="search-btn" onclick="send(8)">Session8 </a>         
     </div>
     <div class="chapter">          
-    <a id="btn9"class="search-btn" onclick="send()">Session9 </a>         
+    <a id="btn9"class="search-btn" onclick="send(9)">Session9 </a>         
     </div>
     
 </div>
@@ -57,15 +57,10 @@
 
 
 <script>
-    function send1() {
-    document.getElementById('ff').innerHTML = "<iframe id='frame' text-align='center'name='my_frame' src='S1.html' width='80%'' height='100%'' frameborder='0'></iframe>";
+    function send(x) {
+    document.getElementById('ff').innerHTML = "<iframe id='frame' text-align='center'name='my_frame' src='S"+x+".html' width='80%'' height='100%'' frameborder='0'></iframe>";
     }
-    function send2() {
-    document.getElementById('ff').innerHTML = "<iframe id='frame' text-align='center'name='my_frame' src='S1.html' width='80%'' height='100%'' frameborder='0'></iframe>";
-    }
-    function send3() {
-    document.getElementById('ff').innerHTML = "<iframe src='http://www.sina.com'"+"style='width: 1000px;height: 400px;'"+"></iframe>";
-    }
+    
 </script>
 
 
