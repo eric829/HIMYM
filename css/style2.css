@@ -21,11 +21,12 @@ body::-webkit-scrollbar {
     background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
     background-size: 400%;
     height: 130px;
-    width:100%;    
+    width:100%;  
+}  
     /*animation: bganimation 15s infinite;
     
-}
-/* .search-box{
+
+.search-box{
     position: absolute;
     top:7%;
     left:50%;  
@@ -54,8 +55,10 @@ body::-webkit-scrollbar {
     transition: 0.4s;
     line-height: 40px;
     width:0px;
-} */
-.chapter{
+}
+ */
+
+ .chapter{
     color: #e84118;
     width: 200px;
     height: 40px;
