@@ -75,6 +75,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    float:left;
 }
 .video{    
     background-color: #2f3640;
