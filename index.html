@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html style="height: 100%;width: 100%;" >
+    <head>
+        <meta charest="utf-8">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style2.css') }}"   />
+        <title>HIMYM</title>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    </head>
+    <body style="height: 100%;width: 100%;" >
+   
+<div class="Top">       
+    <div class="chapter">          
+    <a id="btn"class="search-btn"  onclick="send()"> </a>     
+    <a id="btn"class="search-btn"  onclick="send()"> </a>   
+    <a id="btn"class="search-btn"  onclick="send()"> </a>   
+    </div>
+    
+</div>
+<div class="video">
+    <br>    
+    <br>
+  <iframe id="frame" text-align="center"name="my_frame" src="index" width="100%" height="800px" scrolling="no"  frameborder="0"></iframe>
+  
+</div>
+    </body>
+</html>
+
+<script>
+    function send() {
+        var url = '';
+        if(document.getElementById('input1').value === ""){
+            url = '/index';
+        }else{
+            url = '/';
+        }
+        
+        document.urlget.action = url;
+        document.urlget.submit();
+        document.getElementById('input1').value = "";
+        
+    }
+    
+    </script>
