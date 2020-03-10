@@ -20,9 +20,9 @@ body::-webkit-scrollbar {
 .Top{
     background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
     background-size: 400%;
-    animation: bganimation 15s infinite;
     height: 130px;
-    width:100%;
+    width:100%;    
+    /*animation: bganimation 15s infinite;
     
 }
 /* .search-box{
@@ -57,10 +57,8 @@ body::-webkit-scrollbar {
 } */
 .chapter{
     color: #e84118;
-    float: middle;
-    width: 40px;
+    width: 200px;
     height: 40px;
-    border-radius: 50%;
     background: #df1010;
     display: flex;
     justify-content: center;
@@ -70,9 +68,8 @@ body::-webkit-scrollbar {
 .search-btn{
     color: #e84118;
     float: left;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: 100px;
+    height: 40px;    
     background: #2f3640;
     display: flex;
     justify-content: center;
