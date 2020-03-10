@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding: 0;    
-    background-color: #dba759ef;
-    background-size: cover;
+    background-color: #dd7915ef;
+    background-size: 200%;
     height: 100%;   
     overflow-x: hidden;
     overflow-y: scroll;
 }
  /* for Chrome */
- body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
 }
  /* for Chrome */
@@ -17,21 +17,20 @@ body{
 }
 .table1{
     width: 100%;    
-    height: 960px;
+    height: 1500px;
 }
 .table2 {
     margin-left: 20%;
     margin-top:5%;
     width: 100%;    
-    height: 960px;
+    height: 100%;
 }
 
 .scrip{
-    margin-left:  10px;
-    font-size: 20px;
-    position: relative;
-    width: 80%;    
-    height: 960px;
+    margin-left:  15px;
+    font-size: 20px;    
+    width: 100%;    
+    height: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
     color: rgba(0, 0, 255, 0.76);
@@ -45,8 +44,8 @@ body{
     font-weight: bold;
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blue;
-    width: 500px;
+    color: rgba(0, 0, 255, 0.76);
+    width: 400px;
 }
 .table2 a{
     cursor: pointer;   
@@ -54,6 +53,6 @@ body{
     font-weight: bold;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blue;
+    color: rgba(0, 0, 255, 0.76);
     width: 500px;
 }
