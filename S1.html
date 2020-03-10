@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+      <meta charest="utf-8">
+      <link rel="stylesheet" href="/HIMYM/stylevideo.css"/>
+    </head>
+    <body>
+      <div id="ff" class="table">
+        <table border="1">
+            　<tr>
+            　<td colspan="2">Session1 </td>
+            　</tr>
+            　<tr>
+            　<td><button type="button" onclick="click2()">Session1</button></td>
+            　<td>這裡是第二行的第二個欄位</td>
+            　</tr>
+            </table>
+      </div>
+    </body>
+</html>
+
+
+
+<script>
+  function click1() {
+  document.getElementById('ff').innerHTML = "<span>变更后</span>";
+  }
+  function click2() {
+  document.getElementById('ff').innerHTML = "<iframe src='S1C1.html'"+"style='width: 100%;height: 100%;'"+"></iframe>";
+  }
+  function send3() {
+  document.getElementById('ff').innerHTML = "<iframe src='http://www.sina.com'"+"style='width: 1000px;height: 400px;'"+"></iframe>";
+  }
+</script>
+  

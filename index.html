@@ -2,49 +2,66 @@
 <html style="height: 100%;width: 100%;" >
     <head>
         <meta charest="utf-8">
-         <link rel="stylesheet" href="/HIMYM/css/style2.css">
+         <link rel="stylesheet" href="/HIMYM/style2.css">
         <title>HIMYM</title>
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     </head>
-    <body style="height: 100%;width: 100%;" >
-   
-<div class="Top"> 
-    <h1>How I met your mother Script </h1>     
+    <body style="height: 100%;width: 100%;" >   
+<div class="Top">     
+    <div class="title">
+        <a >How I Met Your Mother Script </a> 
+    </div>
+       
     <div class="chapter">          
-    <a id="btn"class="search-btn"  onclick="send()">Chapter1 </a>         
+    <a id="btn1"class="search-btn" onclick="send1()">Session1 </a>         
     </div>
     <div class="chapter">          
-    <a id="btn"class="search-btn" onclick="send()">Chapter2 </a>         
+    <a id="btn2"class="search-btn" onclick="send2()">Session2 </a>         
     </div>
     <div class="chapter">          
-    <a id="btn"class="search-btn"  onclick="send()">Chapter3 </a>         
+    <a id="btn3"class="search-btn" onclick="send()">Session3 </a>         
     </div>
     <div class="chapter">          
-    <a id="btn"class="search-btn"  onclick="send()">Chapter4 </a>         
+    <a id="btn4"class="search-btn" onclick="send()">Session4 </a>         
     </div>
+    <div class="chapter">          
+    <a id="btn5"class="search-btn" onclick="send()">Session5 </a>         
+    </div>
+    <div class="chapter">          
+    <a id="btn6"class="search-btn" onclick="send()">Session6 </a>         
+    </div>
+    <div class="chapter">          
+    <a id="btn7"class="search-btn" onclick="send()">Session7 </a>         
+    </div>
+    <div class="chapter">          
+    <a id="btn8"class="search-btn" onclick="send()">Session8 </a>         
+    </div>
+    <div class="chapter">          
+    <a id="btn9"class="search-btn" onclick="send()">Session9 </a>         
+    </div>
+    
 </div>
 <div class="video">
     <br>    
     <br>
-  <iframe id="frame" text-align="center"name="my_frame" src="" width="100%" height="800px" scrolling="no"  frameborder="0"></iframe>
-  
+    <br>
+    <div id="ff" class="fra">
+  <iframe id="frame" text-align="center"name="my_frame" src="" width="80%" height="100%" frameborder="0"></iframe>
+    </div>    
 </div>
     </body>
 </html>
 
+
 <script>
-    function send() {
-        var url = '';
-        if(document.getElementById('input1').value === ""){
-            url = '/index';
-        }else{
-            url = '/';
-        }
-        
-        document.urlget.action = url;
-        document.urlget.submit();
-        document.getElementById('input1').value = "";
-        
+    function send1() {
+    document.getElementById('ff').innerHTML = "<span>变更后</span>";
     }
+    function send2() {
+    document.getElementById('ff').innerHTML = "<iframe id='frame' text-align='center'name='my_frame' src='S1.html' width='80%'' height='100%'' frameborder='0'></iframe>";
+    }
+    function send3() {
+    document.getElementById('ff').innerHTML = "<iframe src='http://www.sina.com'"+"style='width: 1000px;height: 400px;'"+"></iframe>";
+    }
+</script>
     
-    </script>
