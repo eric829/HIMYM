@@ -17,11 +17,12 @@ body::-webkit-scrollbar {
         background-position: 0% 50%;
     }
 }
-.search-back{
+.Top{
     background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
     background-size: 400%;
     animation: bganimation 15s infinite;
     height: 130px;
+    width:100%;
     
 }
 .search-box{
@@ -63,6 +64,17 @@ body::-webkit-scrollbar {
     transition: 0.4s;
     line-height: 40px;
     width:0px;
+}
+.chapter{
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #df1010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .video{    
     background-color: #2f3640;
