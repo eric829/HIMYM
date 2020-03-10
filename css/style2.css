@@ -62,11 +62,13 @@ body::-webkit-scrollbar {
     color: #e84118;
     width: 200px;
     height: 40px;
-    background: #df1010;
+    background-color:transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     float:left;
+    position:absolute; 
+    bottom: 0px;       
 }
 .search-btn{
     color: #e84118;
