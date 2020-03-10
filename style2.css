@@ -1,8 +1,7 @@
 body{
     margin: 0;
     padding: 0;   
-    height: 100%;
-    
+    height: 100%;    
     overflow-y: scroll;
 }
 body::-webkit-scrollbar {
@@ -18,7 +17,7 @@ body::-webkit-scrollbar {
     /* animation: bganimation 15s infinite; */
     
 .title{
-    
+    line-height: 25px;
     font-size:33px;
     font-weight: bold;
     color: rgb(250, 250, 250);
@@ -55,7 +54,7 @@ body::-webkit-scrollbar {
 }
 .video{   
     
-    background-color:#2f3640;
+    background-color:#16191f;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -69,7 +68,7 @@ body::-webkit-scrollbar {
 }
 
 .buttom{
-    background-color:#2f3640;
+    background-color:#16191f;
     text-align: center;
     width: 100%;
     height: 100px;
