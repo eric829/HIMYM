@@ -1,25 +1,44 @@
 body{
     margin: 0;
-    padding: 0;
-    font-family: sans-serif;    
+    padding: 0;    
     background-color: #f1a634ef;
     background-size: cover;
-    height: 100%;
-    
-
+    height: 100%;   
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
-.table {
+ /* for Chrome */
+ body::-webkit-scrollbar {
+    display: none;
+}
+ /* for Chrome */
+ .scrip::-webkit-scrollbar {
+    display: none;
+}
+.table1{
+    width: 100%;    
+    height: 960px;
+}
+.table2 {
     margin-left: 20%;
     margin-top:5%;
     width: 100%;    
-    height: 800px;
+    height: 960px;
 }
 
 .scrip{
-    width: 100%;    
-    height: 800px;
+    font-size: 20px;
+    position: relative;
+    width: 80%;    
+    height: 960px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    color: rgba(0, 0, 255, 0.76);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.table td{
+
+.table2 td{
     
     margin-top:10px;
     font-weight: bold;
@@ -28,8 +47,8 @@ body{
     color: blue;
     width: 500px;
 }
-.table a{
-    
+.table2 a{
+    cursor: pointer;   
     margin-top: 50px;
     font-weight: bold;
     font-size: 20px;
