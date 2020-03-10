@@ -18,26 +18,31 @@ body::-webkit-scrollbar {
 .table1{
     width: 100%;    
     height: 1500px;
+    
 }
 .table2 {
     margin-left: 20%;
     margin-top:5%;
     width: 100%;    
     height: 100%;
+   
 }
 
 .scrip{
-    margin-left:  15px;
+    word-wrap:break-word; 
+    margin-left:  20px;
     font-size: 20px;    
-    width: 100%;    
+    width: 90%;    
     height: 100%;
-    overflow-x: hidden;
+    
     overflow-y: scroll;
     color: rgba(0, 0, 255, 0.76);
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.scrip p {
+    word-wrap:break-word; 
+}
 .table2 td{
     
     margin-top:10px;
