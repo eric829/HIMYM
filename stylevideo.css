@@ -4,42 +4,62 @@ body{
     background-color:  #16191f;
     background-size: 200%;
     height: 100%;   
-    overflow-x: hidden;
-    overflow-y: scroll;
+    
 }
  /* for Chrome */
-body::-webkit-scrollbar {
+
+/* body ::-webkit-scrollbar {
+    display: none;
+} */
+
+body ::-webkit-scrollbar {
     display: none;
 }
- /* for Chrome */
- .scrip::-webkit-scrollbar {
-    display: none;
+
+ ::-webkit-scrollbar {
+    background-color:#16191f;
+    width: 14px;
+} 
+ ::-webkit-scrollbar-track {
+    box-shadow:  inset 0 0 10px #16191f;
+    border-radius: 50px;
 }
+::-webkit-scrollbar-thumb {
+    background:  linear-gradient(125deg,#2980b9,#27ae60);
+    border-radius: 50px;
+    height: 10px;
+}
+
+
+
 .table1{
     width: 100%;    
     height: 1500px;
-    
+    scroll-behavior: unset;
 }
 .table2 {
     margin-left: 20%;
     margin-top:2%;
     width: 100%;    
-    height: 100%;
-   
+    height: 100%; 
+    
 }
 
 .scrip{
+    
     word-wrap:break-word; 
     margin-left:  20px;
     font-size: 20px;    
     width: 90%;    
     height: 100%;    
-    overflow-y: scroll;
+    
     color:#dd7915ef;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .scrip p {
+    text-align: justify;
+    padding: 10px;
     word-wrap:break-word; 
 }
 .table2 td{
